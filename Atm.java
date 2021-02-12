@@ -143,8 +143,7 @@ public class Atm
 		long customer_id=8146173336l;
 		int pin=3142;
 		System.out.println("WELCOME TO THE ATM PROJECT");
-                System.out.println("READY TO ACCESS THE FEATURES");
-		Scanner scan = new Scanner(System.in);
+                Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the Customer number:");
 		long Customerid = scan.nextLong();
 		System.out.println("Enter the Pin number");
